@@ -35,8 +35,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
-  display: block;
 }
 
 .nav .link.current {
@@ -72,10 +70,6 @@
 .envelope:focus {
   fill: var(--accent-color);
   color: var(--accent-color);
-}
-
-.icon-smartphone {
-  margin-right: 10px;
 }
 
 /* Контейнеры */
@@ -201,11 +195,20 @@ ul {
 
 .features {
   display: flex;
-  height: 101px;
+
   margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
   padding-left: 0;
+}
+
+.bcg {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .features-item:not(:last-child) {
@@ -229,7 +232,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0;
-  padding-top: 94px;
 }
 .activity-list {
   display: flex;
