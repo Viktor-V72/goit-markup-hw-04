@@ -387,13 +387,17 @@ ul {
   fill: #afb1b8;
 }
 
-.client-box:hover {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  background-color: var(--accent-color);
+.client-box a {
+  padding: 19px 65px;
 }
 
-.client-logo:hover {
+.client-box a:hover {
+}
+
+.client-box:hover {
+  border: 1px solid var(--accent-color);
+}
+.client-box:hover .client-logo {
   fill: var(--accent-color);
 }
 
@@ -408,6 +412,8 @@ ul {
 }
 
 .footer-address {
+  width: 231px;
+
   color: var(--background-color-body);
   margin-top: 20px;
   margin-bottom: 9px;
@@ -436,6 +442,47 @@ ul {
 .footer-link .link {
   text-decoration-line: none;
 }
+
+.footer p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin: 0;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.join {
+  padding-top: 72px;
+  margin-left: 70px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-margin .social-box {
+  fill: #ffffff;
+}
+
+.no-margin .social {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.no-margin .social:hover {
+  background-color: var(--accent-color);
+}
+
 /* portfolio */
 
 .filter {
@@ -456,6 +503,7 @@ ul {
 .filter .box:hover {
   color: var(--background-color-body);
   background: var(--accent-color);
+  cursor: pointer;
 }
 
 .examples .examples-title {
